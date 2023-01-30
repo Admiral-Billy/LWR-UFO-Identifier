@@ -1,0 +1,45 @@
+strong {
+  color: red;
+}
+
+html {
+	background-color: #14147A;
+	font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0 0 0;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 10px 10px 10px;
+}
+
+p,
+li {
+	color: white;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: 1px;
+}
+
+label {
+	color: white;
+	font-size: 24px;
+}
+
+img {
+	display: block;
+}
