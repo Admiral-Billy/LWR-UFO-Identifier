@@ -1,5 +1,5 @@
-strong {
-  color: red;
+#analysis {
+	color: cyan;
 }
 
 html {
@@ -10,14 +10,14 @@ html {
 h1 {
 	margin: 0;
 	padding: 20px 0 0 0;
-	color: white;
+	color: cyan;
 	font-size: 60px;
 	text-align: center;
 	text-shadow: 3px 3px 1px black;
 }
 
 h2 {
-	color: white;
+	color: cyan;
 	font-size: 30px;
 	text-align: center;
 }
@@ -29,14 +29,14 @@ body {
 
 p,
 li {
-	color: white;
+	color: cyan;
 	font-size: 24px;
 	line-height: 1;
 	letter-spacing: 1px;
 }
 
 label {
-	color: white;
+	color: cyan;
 	font-size: 24px;
 }
 
