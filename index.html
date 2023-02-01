@@ -14,42 +14,43 @@
 	<h2>For more details, <a href="https://www.ufopaedia.org/index.php/UFOs_(LWR)">consult the wiki here</a></h2>
 	
 	<label for="size">UFO Size:</label>
-	<select name="size" id="size">
-		<option value="unknown">Unknown</option>
-		<option value="small">Small</option>
-		<option value="medium">Medium</option>
-		<option value="large">Large</option>
-		<option value="verylarge">Very Large</option>
+	<select name="size" id="size" onchange="determineUFOs()">
+		<option value=-1>Unknown</option>
+		<option value=0>Small</option>
+		<option value=1>Medium</option>
+		<option value=2>Large</option>
+		<option value=3>Very Large</option>
 	</select>
 	<br/>
 	<label for="strobe">UFO Strobe:</label>
-	<select name="strobe" id="strobe">
-		<option value="unknown">Unknown</option>
-		<option value="yes">Yes</option>
-		<option value="no">No</option>
+	<select name="strobe" id="strobe" onchange="determineUFOs()">
+		<option value=-1>Unknown</option>
+		<option value=1>Yes</option>
+		<option value=0>No</option>
 	</select>
 	<br/>
 	<label for="height">UFO Height:</label>
-	<select name="height" id="height">
-		<option value="unknown">Unknown</option>
-		<option value="noe">NOE</option>
-		<option value="low">Low</option>
-		<option value="high">High</option>
+	<select name="height" id="height" onchange="determineUFOs()">
+		<option value=-1>Unknown</option>
+		<option value=0>NOE</option>
+		<option value=1>Low</option>
+		<option value=2>High</option>
 	</select>
 	<br/>
 	
-	<p><strong id="analysis">Analysis:</strong></p>
+	<p><strong id="analysis">Potential UFOs:</strong></p>
 	
-    <img src="images/scout.png" alt="Scout UFO" />
-	<p>This is a
+	<p><strong id="ufoText" style="white-space: pre-line">N/A</strong></p>
+    <!--<img src="images/scout.png" alt="Scout UFO" />
+	<p>This is a</p>
 	<ul>
-		<li><strong>Scout</strong></li>
+		<li><strong id="ufoText">Scout</strong></li>
 	</ul>
 	<p>performing a</p>
 	<ul>
 		<li><strong>Reconnaissance</strong></li> 
 	</ul>
-	<p>mission.</p>
+	<p>mission.</p>-->
 	
 	<script src="scripts/main.js"></script>
   </body>
