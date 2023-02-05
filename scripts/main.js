@@ -70,7 +70,7 @@ let transport = new UFO(name, size, strobe, missions);
 
 name = "Terror Ship";
 size = 2;
-strobe = true;
+strobe = false;
 missions = ["Research", "Terrorize Populace"];
 let terror = new UFO(name, size, strobe, missions);
 
@@ -82,7 +82,7 @@ let battleship = new UFO(name, size, strobe, missions);
 
 name = "Assault Carrier";
 size = 3;
-strobe = true;
+strobe = false;
 missions = ["Terrorize Populace", "Retaliate", "Research"];
 let assault = new UFO(name, size, strobe, missions);
 
