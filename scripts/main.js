@@ -76,7 +76,7 @@ let terror = new UFO(name, size, strobe, missions);
 
 name = "Battleship";
 size = 3;
-strobe = true;
+strobe = false;
 missions = ["Scout", "Hunt", "Bomb", "Infiltrate"];
 let battleship = new UFO(name, size, strobe, missions);
 
