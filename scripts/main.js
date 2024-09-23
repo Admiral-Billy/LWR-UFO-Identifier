@@ -59,7 +59,7 @@ let abductor = new UFO(name, size, strobe, missions);
 name = "Harvester";
 size = 2;
 strobe = false;
-missions = ["Harvest"];
+missions = ["Recon", "Harvest"];
 let harvester = new UFO(name, size, strobe, missions);
 
 name = "Transport";
@@ -88,7 +88,7 @@ let assault = new UFO(name, size, strobe, missions);
 
 name = "Recon";
 let height = 1;
-let ufos = [scout, raider, destroyer, battleship];
+let ufos = [scout, raider, harvester, battleship];
 let landing = false;
 let recon = new Mission(name, height, ufos, landing);
 
