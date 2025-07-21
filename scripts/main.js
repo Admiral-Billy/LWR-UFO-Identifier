@@ -88,7 +88,7 @@ let assault = new UFO(name, size, strobe, missions);
 
 name = "Recon";
 let height = 1;
-let ufos = [scout, raider, harvester, battleship];
+let ufos = [scout, raider, harvester];
 let landing = false;
 let recon = new Mission(name, height, ufos, landing);
 
